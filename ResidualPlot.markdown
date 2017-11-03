@@ -21,6 +21,25 @@ or
 The power 0.5 is used to reduce skewness in the absolute values.
 
 
+
+## From the two cited sources:
+Residual plot and standardized plot are not so different in their use. However, it may be better to use residaul plot to check **independece assumption**, that is, whether there is a discernible pattern; and use standardized residual plot to check **constatn variance assumption**.
+
+### Any violation of these assumptions make the model invalid.
+The so-called *model validity check* is just to check whether the assumptions are met.
+
+And the assumptions all come from the model: ***Yi = beta0 + beta1 * Xi + epsilon_i***
+In SLR case, the assumptions are:
+1. *epsilon_i's* are independent    **checked by residual plot**
+2. *epsilon_i's* have a common variance  **usually checked by standardized residual plot, but residual plot is also fine(as long as the points' leverage are not large**
+3. *epsilon|X* are normally distributed
+
+Remark: In conclusion, every epsilon_i is a random variable, it's mean is 0 and variance is assumed to be sigma^2, its distribution is assumed to be normal. And all the epsilon_i's are independent(i.i.d. actually)
+
+Remark2: In the model, X is given. Therefore, Y_i is also a random variable and has the same variance as epsilon_i. All the Y_i's are independent but not identically distributed (because they have different means).
+
+
+
 **Query 1.** Why do we plot the residuals ej = Yj - Yj against the Yj and not against
 the Yj , for the usual linear model?
 
