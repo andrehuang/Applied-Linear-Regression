@@ -16,7 +16,8 @@ A number of authors (e.g., Cook and Weisberg, 1999b , p. 350) recommend that
 an effective plot to diagnose nonconstant error variance is a plot of
 |Residuals|^0.5 against x
 or
-| Standardized Residuals|^0.5 against x
+| Standardized Residuals|^0.5 against x.
+
 The power 0.5 is used to reduce skewness in the absolute values.
 
 
