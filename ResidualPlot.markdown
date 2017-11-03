@@ -22,7 +22,7 @@ The power 0.5 is used to reduce skewness in the absolute values.
 
 
 
-## From the two cited sources:
+## From the two cited sources, we can have some conclusions:
 Residual plot and standardized plot are not so different in their use. However, it may be better to use residaul plot to check **independece assumption**, that is, whether there is a discernible pattern; and use standardized residual plot to check **constatn variance assumption**.
 
 ### Any violation of these assumptions make the model invalid.
